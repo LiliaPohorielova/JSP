@@ -5,7 +5,7 @@ import java.util.List;
 
 public class TaskDao {
 
-    private List<Task> tasks = new LinkedList<>();
+    private final List<Task> tasks = new LinkedList<>();
 
     private static TaskDao taskDaoInstance = null;
 
